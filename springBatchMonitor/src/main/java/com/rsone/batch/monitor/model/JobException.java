@@ -1,4 +1,4 @@
-package com.rsone.model;
+package com.rsone.batch.monitor.model;
 
 import javax.persistence.*;
 
@@ -24,7 +24,7 @@ public class JobException {
     @Column(name = "JX_LAST_TIME")
     private String jobExcepLastTime;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "JX_JOB_ID")
     private JobDetails job;
 

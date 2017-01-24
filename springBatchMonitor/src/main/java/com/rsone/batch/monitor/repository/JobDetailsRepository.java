@@ -1,6 +1,6 @@
-package com.rsone.repository;
+package com.rsone.batch.monitor.repository;
 
-import com.rsone.model.JobDetails;
+import com.rsone.batch.monitor.model.JobDetails;
 import org.springframework.data.repository.Repository;
 
 /**

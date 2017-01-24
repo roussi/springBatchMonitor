@@ -1,4 +1,4 @@
-package com.rsone.model;
+package com.rsone.batch.monitor.model;
 
 import javax.persistence.*;
 
@@ -22,7 +22,7 @@ public class StepDetails {
     @Column(name = "STEP_STATUS")
     private String stepStatus;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "STEP_JOB_ID")
     private JobDetails job;
 

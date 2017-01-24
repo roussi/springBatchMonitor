@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.rsone.util;
+package com.rsone.batch.monitor.util;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

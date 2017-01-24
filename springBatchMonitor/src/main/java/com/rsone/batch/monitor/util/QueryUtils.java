@@ -1,4 +1,4 @@
-package com.rsone.util;
+package com.rsone.batch.monitor.util;
 
 /**
  * Created by RSone on 17/01/2017.

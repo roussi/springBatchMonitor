@@ -1,4 +1,4 @@
-package com.rsone.model;
+package com.rsone.batch.monitor.model;
 
 import javax.persistence.*;
 import java.util.Collection;

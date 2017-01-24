@@ -1,6 +1,6 @@
-package com.rsone.repository;
+package com.rsone.batch.monitor.repository;
 
-import com.rsone.model.StepDetails;
+import com.rsone.batch.monitor.model.StepDetails;
 import org.springframework.data.repository.Repository;
 
 import java.util.Collection;
